@@ -8,6 +8,7 @@ import (
 )
 
 type Client struct {
+	// The API client used to make requests to Waypoint
 	c waypoint.ClientService
 }
 
