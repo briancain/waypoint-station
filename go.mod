@@ -3,6 +3,12 @@ module github.com/briancain/waypoint-station
 go 1.20
 
 require (
+	github.com/hashicorp/waypoint v0.11.0
+	github.com/hashicorp/waypoint-client v0.0.0-20230307174716-bbc513c1c619
+	github.com/rivo/tview v0.0.0-20230307144320-cc10b288e304
+)
+
+require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
@@ -20,15 +26,12 @@ require (
 	github.com/go-openapi/validate v0.20.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/waypoint v0.11.0 // indirect
-	github.com/hashicorp/waypoint-client v0.0.0-20230307174716-bbc513c1c619 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/rivo/tview v0.0.0-20230307144320-cc10b288e304 // indirect
 	github.com/rivo/uniseg v0.4.3 // indirect
 	go.mongodb.org/mongo-driver v1.11.0 // indirect
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
