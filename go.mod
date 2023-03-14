@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/gdamore/tcell/v2 v2.6.0
 	github.com/hashicorp/waypoint v0.11.0
-	github.com/hashicorp/waypoint-client v0.0.0-20230307174716-bbc513c1c619
+	github.com/hashicorp/waypoint-client v0.0.0-20230314213942-7bf019390209
 	github.com/rivo/tview v0.0.0-20230307144320-cc10b288e304
 )
 
