@@ -2,6 +2,10 @@
 build: # Build the project
 	@go build -o bin/ ./...
 
+.PHONY: test
+test: # Build the project
+	@go test -v ./...
+
 .PHONY: run
 run: # Build the project
 	./bin/waypoint-station
