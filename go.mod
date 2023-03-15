@@ -7,12 +7,14 @@ require (
 	github.com/hashicorp/waypoint v0.11.0
 	github.com/hashicorp/waypoint-client v0.0.0-20230314213942-7bf019390209
 	github.com/rivo/tview v0.0.0-20230307144320-cc10b288e304
+	github.com/stretchr/testify v1.8.1
 )
 
 require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
 	github.com/go-openapi/analysis v0.20.0 // indirect
 	github.com/go-openapi/errors v0.20.3 // indirect
@@ -32,6 +34,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rivo/uniseg v0.4.3 // indirect
 	go.mongodb.org/mongo-driver v1.11.0 // indirect
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
@@ -42,6 +45,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 // replace github.com/hashicorp/waypoint-client => ../../hashicorp/waypoint-client
