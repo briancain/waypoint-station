@@ -30,3 +30,6 @@ jobs:
 
     - name: Build # Simple syntax checker
       run: go build -v ./...
+
+    - name: Test # Simple syntax checker
+      run: make test
